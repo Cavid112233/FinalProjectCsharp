@@ -1,12 +1,4 @@
-﻿using C__Final.AuthorName;
-using C__Final.Managers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace C__Final.Books
+﻿namespace FinalProjectCsharp.Books
 {
     public class Book : IEquatable<Book> 
     {

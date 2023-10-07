@@ -1,10 +1,9 @@
-﻿using C__Final.AuthorName;
-using C__Final.Books;
-using C__Final.Enums;
-using C__Final.Helper;
-using C__Final.Managers;
+﻿using FinalProjectCsharp.Books;
+using FinalProjectCsharp.Enums;
+using FinalProjectCsharp.Helper;
+using FinalProjectCsharp.Managers;
 
-namespace C__Final
+namespace FinalProjectCsharp
 {
     internal class Program
     {

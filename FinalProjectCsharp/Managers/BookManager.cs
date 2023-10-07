@@ -1,14 +1,8 @@
-﻿using C__Final.AuthorName;
-using C__Final.Books;
-using C__Final.Infrastructure;
-using System;
+﻿using FinalProjectCsharp.Books;
+using FinalProjectCsharp.Infrastructure;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace C__Final.Managers
+namespace FinalProjectCsharp.Managers
 {
     public class BookManager : IManager<Book>, IEnumerable<Book>
     {

@@ -1,8 +1,8 @@
-﻿using C__Final.AuthorName;
-using C__Final.Infrastructure;
+﻿using FinalProjectCsharp.Books;
+using FinalProjectCsharp.Infrastructure;
 using System.Collections;
 
-namespace C__Final.Managers
+namespace FinalProjectCsharp.Managers
 {
     public class AuthorManager : IManager<Author>,IEnumerable<Author>
     {

@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C__Final.AuthorName
+namespace FinalProjectCsharp.Books
 {
-    public  class Author : IEquatable<Author>
+    public class Author : IEquatable<Author>
     {
         static int counter = 0;
         public Author()
         {
             counter++;
-            this.Id = counter;
+            Id = counter;
         }
 
         public Author(int id)
         {
-            this.Id=id;
+            Id = id;
         }
         public int Id { get; private set; }
         public string Name { get; set; }
@@ -25,7 +25,7 @@ namespace C__Final.AuthorName
 
         public bool Equals(Author? other)
         {
-            return other?.Id == this.Id;
+            return other?.Id == Id;
         }
 
         public override string ToString()

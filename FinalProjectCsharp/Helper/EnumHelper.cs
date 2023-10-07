@@ -1,9 +1,10 @@
-﻿using C__Final.Enums;
-namespace C__Final.Helper
+﻿using FinalProjectCsharp.Enums;
+
+namespace FinalProjectCsharp.Helper
 {
-   public static class EnumHelper
+    public static class EnumHelper
     {
-      
+
         public static T ReadEnum<T>(string caption)
             where T : Enum
         {
@@ -27,7 +28,7 @@ namespace C__Final.Helper
 
             income = Console.ReadLine();
 
-            if (!Enum.TryParse(typeof(T), income, out object value) || (!Enum.IsDefined(typeof(T), value)))
+            if (!Enum.TryParse(typeof(T), income, out object value) || !Enum.IsDefined(typeof(T), value))
             {
                 goto l1;
             }

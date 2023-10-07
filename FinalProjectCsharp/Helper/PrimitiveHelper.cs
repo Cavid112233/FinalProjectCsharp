@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace C__Final.Helper
+namespace FinalProjectCsharp.Helper
 {
     public static class PrimitiveHelper
     {
